@@ -1,0 +1,11 @@
+{
+  "name": "phoenixmc-site",
+  "version": "1.0.0",
+  "description": "Minecraft server website using Ghost CMS",
+  "scripts": {
+    "start": "node current/index.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
