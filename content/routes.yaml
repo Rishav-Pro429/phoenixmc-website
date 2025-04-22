@@ -1,0 +1,13 @@
+routes:
+  /api/:
+    template: api-template
+    content_type: application/json
+
+collections:
+  /:
+    permalink: /{slug}/
+    template: index
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/
